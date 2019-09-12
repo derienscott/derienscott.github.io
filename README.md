@@ -1,1 +1,1 @@
-# kr-coming-soon
+# "Coming Soon" page for kanvasroom.com
