@@ -92,24 +92,26 @@
 				#team-photo {
 					position: absolute;
 					display: none;
-					background: #F6F2F2;
 					text-align: center;
 					width: 240px;
-					border-radius: 4px;
-					box-shadow: 0px 0px 15px 0px rgba(16, 16, 16, 0.1);
 					z-index: 99;
 				}
 
 				#team-photo img {
 					width: 100%;
 					height: auto;
-					border-radius: 4px 4px 0 0;
+					border-radius: 4px;
+					box-shadow: 0px 0px 15px 0px rgba(16, 16, 16, 0.1);
 				}
 
-				#team-photo p {
-					padding: 0 20px;
+				#team-photo div {
+					background: #F6F2F2;
+					padding: 10px 20px;
 					font-size: .6em;
+					border-radius: 4px;
+					box-shadow: 0px 0px 15px 0px rgba(16, 16, 16, 0.1);
 				}
+				
 	</style>
 </head>
 
@@ -572,11 +574,12 @@
 
 	<div id="team-photo">
 		<img src="team-photo.jpg">
-
-		<p>Wayne Lai<br>
-		Derien Scott<br>
-		Kyle Herock<br>
-		Aaron Pludwinski</p>
+		<div>
+			<p>Wayne Lai<br>
+			Derien Scott<br>
+			Kyle Herock<br>
+			Aaron Pludwinski</p>
+		</div>
 	</div>
 
 
