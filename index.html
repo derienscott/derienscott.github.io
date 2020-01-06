@@ -1,26 +1,22 @@
 <!DOCTYPE html>
 <html>
 	<head>
-  
 		<meta charset="utf-8">
-
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">   
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<script>
+			function loadPage() {
+				document.getElementById('app').src = 'https://script.google.com/macros/s/AKfycby7M_wM-Jr71AUASCYuAMfMLnhTNA7VKeqCtZfK1y7cPM7taFtv/exec' + window.location.search;
+			}
+		</script>
 		<title>Kanvasroom</title>
 		<meta content="Coming Soon" name="description">
 		<meta content="Kanvasroom" name="author">
 		<link rel="icon" href="favicon.ico" type="image/x-icon" />
-		<style>
-			body {
-				height: 100vh;
-				width: 100vw;
-				margin: 0;
-			}
-		</style>
 	</head>
-	<body>
-		<iframe id="app" height="100%" width="100%" frameborder="0"></iframe>
-	</body>
-  
-	<script>
-		document.getElementById('app').src = 'https://script.google.com/macros/s/AKfycby7M_wM-Jr71AUASCYuAMfMLnhTNA7VKeqCtZfK1y7cPM7taFtv/exec' + window.location.search;
-	</script>
+	<frameset rows="100%" onload="loadPage()">
+		<frame id="app" 
+		frameborder="0" 
+		noresize="noresize">
+	</frameset>
 </html>
