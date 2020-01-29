@@ -1,1 +1,1 @@
-# "Coming Soon" page for kanvasroom.com
+#Landing page for kanvasroom.com
